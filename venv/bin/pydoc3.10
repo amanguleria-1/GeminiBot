@@ -1,0 +1,5 @@
+#!/Users/amanguleria/Desktop/Self-commitment/Projects/Project12(GeminiBot)/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

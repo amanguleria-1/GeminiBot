@@ -1,0 +1,13 @@
+prefix=/Users/amanguleria/Desktop/Self-commitment/Projects/Project12(GeminiBot)/venv
+exec_prefix=/Users/amanguleria/Desktop/Self-commitment/Projects/Project12(GeminiBot)/venv
+libdir=/Users/amanguleria/Desktop/Self-commitment/Projects/Project12(GeminiBot)/venv/lib
+sharedlibdir=/Users/amanguleria/Desktop/Self-commitment/Projects/Project12(GeminiBot)/venv/lib
+includedir=/Users/amanguleria/Desktop/Self-commitment/Projects/Project12(GeminiBot)/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
